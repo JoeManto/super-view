@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+:root {
+  --background: #000000;
+  --textColor: #ffffff;
+  --secondaryTextColor: #717171;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #FFFFFF;
+    --textColor: #121212;
+    --secondaryTextColor: #717171;
+  }
+}
+
+html {
+  background-color: var(--background);
+  color: var(--textColor);
+  font-family: 'Helvetica';
+}
+
+p {
+  max-width: 500px
+}
+
+.subParagraph {
+  color: var(--secondaryTextColor)
+}
+
+#mainContainer {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+</style>
+</head>
+  <div id= "mainContainer">
+    <h3><span>🐞</span> Report a Bug</h3>
+    <div id= "contentContainer">
+        <p></p>
+
+        <h3>Contact Us</h3>
+        <p><a href="mailto:superwindow.dev@gmail.com">Email</a> superwindow.dev@gmail.com
+        </p>
+        
+        <p class="subParagraph">
+            You can expect a reply within 7 days
+        </p>
+        </div>
+
+        <h4>What to Provide</h4>
+        <p>to: superwindow.dev@gmail.com</p>
+        <p>Subject: [BUG] SuperWindow</p>
+        <p>Body: </p>
+        <p>1. Describe the issue to the best of your ability
+        <p>2. Steps to reproduce (If applicable)</p>
+        <p>3. Logs</p>
+        <p class="subParagraph">
+            Logs are most important when an issue isn't 100% reproducible from the provided steps. 
+            We ask you to provide logs in every Bug report just in case we can't reproduce the bug with the provided steps
+        </p>
+        <p> You can save the app logs by clicking the "Save Logs" Menu Option in Support sub menu </p>
+
+        <p>Thank you for your feedback!</p>
+  <div>
+</html>
+

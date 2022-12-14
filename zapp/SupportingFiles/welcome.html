@@ -1,0 +1,58 @@
+<html>
+<head>
+<style>
+:root {
+  --background: #000000;
+  --textColor: #ffffff;
+  --secondaryTextColor: #717171;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #FFFFFF;
+    --textColor: #121212;
+    --secondaryTextColor: #717171;
+  }
+}
+
+html {
+  background-color: var(--background);
+  color: var(--textColor);
+  font-family: 'Helvetica';
+}
+
+p {
+  max-width: 500px
+}
+
+.subParagraph {
+  color: var(--secondaryTextColor)
+}
+
+#mainContainer {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+</style>
+</head>
+  <div id= "mainContainer">
+    <h3><span>👋</span> Welcome to SuperWindow</h3>
+    <div id= "contentContainer">
+        <p>You can find all the things SuperWindow can do via the menu bar icon. Simply right or left click our icon to be presented with these operations.</p>
+
+        <h4>Opening a Web Window vs Opening a local file</h4>
+        <p>When you get to opening up windows you may notice that there are two different options <b><i>Open Web Window</i></b> and <b><i>Open Local File</i></b>. Use the local file operation when wanting to use a pdf reference etc. Use the Web Window when accessing content or resources off your computer.
+        </p>
+        </div>
+        <h3>Moving Windows</h3>
+        <p>When clicking on a move operation this move will be applied to the current SuperWindow in use</p>
+        
+        <h3>Requesting Features</h3>
+        <p>Please find the <b><i>Request Feature</i></b> operation under the support menu tab. This will give you the required contact details and recommendations on your feature requests</p>
+
+        <h3>Happen to find a bug?</h3>
+        <p>Please find the <b><i>Report a Bug</i></b> operation under the support menu tab. Here will give you all the details we need to make sure your found bug gets fixed.</p>
+  <div>
+</html>

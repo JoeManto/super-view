@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+:root {
+  --background: #000000;
+  --textColor: #ffffff;
+  --secondaryTextColor: #717171;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #FFFFFF;
+    --textColor: #121212;
+    --secondaryTextColor: #717171;
+  }
+}
+
+html {
+  background-color: var(--background);
+  color: var(--textColor);
+  font-family: 'Helvetica';
+}
+
+p {
+  max-width: 500px
+}
+
+.subParagraph {
+  color: var(--secondaryTextColor)
+}
+
+#mainContainer {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+</style>
+</head>
+  <div id= "mainContainer">
+    <h3><span>🔨</span> Providing Feedback</h3>
+    <div id= "contentContainer">
+        <p></p>
+
+        <h3>Contact</h3>
+        <p><a href="mailto:superwindow.dev@gmail.com">Email</a> superwindow.dev@gmail.com
+        </p>
+        
+        <p class="subParagraph">
+            You can expect a reply within 7 days
+        </p>
+        </div>
+
+        <h4>What to Provide</h4>
+        <p>Feedback is open ended, but if your feedback is a feature request please explain your feature in detail</p>
+
+        <p>Thank you for your feedback!</p>
+  <div>
+</html>
+

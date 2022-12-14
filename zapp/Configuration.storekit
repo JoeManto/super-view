@@ -1,0 +1,48 @@
+{
+  "identifier" : "276426AD",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "B2D865C1",
+      "localizations" : [
+        {
+          "description" : "Grants unlimited access",
+          "displayName" : "Full Access",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "Grants unlimited access",
+          "displayName" : "Full Access",
+          "locale" : "en_CA"
+        },
+        {
+          "description" : "يمنح وصول غير محدود",
+          "displayName" : "الوصول الكامل",
+          "locale" : "ar"
+        }
+      ],
+      "productID" : "com.joemanto.superwindow.purchases.fullaccess",
+      "referenceName" : "SuperWindow Full Access Purchase",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storefront" : "USA",
+    "_storeKitError" : 0
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 1
+  }
+}
